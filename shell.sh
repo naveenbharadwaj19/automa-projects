@@ -1,10 +1,10 @@
 #/bin/bash
 
 function create() {
-    read -p "Press 1 for python projects 2 -- flutter projects 3 -- ML projects : "  directory
+    read -p "commands for the project 1 - for python 2 - javascript 3 - flutter"  directory
     read -p "Enter the folder name : "  folder
     if [ "$directory" = "1" ]; then
-        cd 'D:/OTHER FILES D/CS ALL FOLD/Python own projects'
+        cd 'path to project'
         mkdir $folder
         cd $folder
         git init
@@ -14,7 +14,7 @@ function create() {
         git commit -m "initial commit"
         exec bash
     elif [ "$directory" = "2" ]; then
-        cd 'D:/OTHER FILES D/CS ALL FOLD/Flutter work'
+        cd 'path to flutter projects'
         mkdir $folder
         cd $folder
         flutter create $folder
@@ -25,7 +25,7 @@ function create() {
         git commit -m "initial commit"
         exec bash
     elif [ "$directory" = "3" ]; then
-        cd 'D:/OTHER FILES D/CS ALL FOLD/machine learning python/machine learning projects'
+        cd 'path to project'
         mkdir $folder
         cd $folder
         git init

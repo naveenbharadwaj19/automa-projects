@@ -1,0 +1,10 @@
+1 - Add the script to path 
+2 - Restart the machine
+3 - if you have so many projects add them by if else statements
+https://www.tutorialspoint.com/unix/if-else-statement.htm
+4 - create alias 
+4 - 1 - generally aliases.sh will be located  C:\Program Files\Git\etc\profile.d/aliases.sh 
+4 - 2 - create a alias 
+alias name="shell.sh"
+4 - 3 - Restart the machine (optional)
+4 - 4 - you can call the created alias name from any directory 
