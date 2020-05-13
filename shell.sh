@@ -15,11 +15,9 @@ function create() {
         exec bash
     elif [ "$directory" = "2" ]; then
         cd 'path to flutter projects'
-        mkdir $folder
-        cd $folder
         flutter create $folder
+        cd $folder
         git init
-        touch .gitignore
         touch README.md 
         git add .
         git commit -m "initial commit"
